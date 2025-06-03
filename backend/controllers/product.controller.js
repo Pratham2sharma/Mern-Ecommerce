@@ -39,16 +39,6 @@ export const getFeaturedProducts = async(req,res) => {
     }
 }
 
-/*************  ✨ Windsurf Command ⭐  *************/
-/**
- * Creates a new product using the provided request body data.
- * The product information includes name, description, price, image, and category.
- * If an image is provided, it is uploaded to Cloudinary and the resulting URL is stored.
- * Responds with the created product data if successful, or an error message if an error occurs.
- *
- * @param {Object} req - The request object, containing the product data in the body.
- * @param {Object} res - The response object used to return the result or error.
- */
 
 /*******  9d7c208e-5f5b-4b9f-a79b-74134a44b0f5  *******/
 export const createProduct = async (req, res) => {
